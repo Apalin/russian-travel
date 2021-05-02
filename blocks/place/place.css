@@ -1,0 +1,13 @@
+.place {
+  color: #FFFFFF;
+}
+.place {
+  color: #FFFFFF;
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+  grid-template-columns: 460px 484px;
+  max-width: 984px;
+  margin: 0 auto 80px;
+
+}

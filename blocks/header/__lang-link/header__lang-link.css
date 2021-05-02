@@ -1,0 +1,12 @@
+.lang-link {
+line-height: 28px;
+color: #FFFFFF;
+text-decoration: none;
+font-size: 24px;
+margin-left: 18px;
+font-weight: normal;
+}
+
+.lang-link:active {
+  text-decoration: underline;
+}
