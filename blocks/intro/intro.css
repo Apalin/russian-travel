@@ -3,3 +3,13 @@
   color: #FFFFFF;
   margin: 92px auto 0;
  }
+
+
+ @media screen and (max-width: 768px) {
+
+  .intro{
+    margin: 88px 24px 0;
+
+  }
+
+}

@@ -10,3 +10,13 @@ font-weight: normal;
 .lang-link:active {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 320px) {
+
+  .lang-link {
+    font-size: 18px;
+    line-height: 20px;
+
+  }
+
+}

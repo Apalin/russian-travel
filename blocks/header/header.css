@@ -7,3 +7,23 @@
   align-content: flex-end;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    padding: 28px 24px 0;
+
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .header {
+    padding: 16px 16px 0;
+    max-width: 320px;
+  max-height: 42px;
+
+  }
+
+}
