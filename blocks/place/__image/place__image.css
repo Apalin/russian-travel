@@ -1,24 +1,15 @@
 .place__image {
-
   width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-
   .place__image {
     grid-column-gap: 32px;
-
-
   }
-
 }
 
 @media screen and (max-width: 768px) {
-
   .place__image {
     grid-column-gap: 28px;
-
-
   }
-
 }

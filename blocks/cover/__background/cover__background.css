@@ -1,5 +1,4 @@
 .cover__background {
-
   background-image: url(../../../images/cover-trains.jpg);
   opacity: .3;
   background-size: cover;
@@ -9,8 +8,6 @@
   bottom: 0;
   left: 0;
   right: 0;
-
   z-index: 0;
-
   }
 

@@ -10,14 +10,11 @@
 .lead {
   width: calc (100% - 96px);
   margin-top: 48px;
-}
-
+  }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     width: calc (100% - 96px);
-
-  }
-
+    }
   }
