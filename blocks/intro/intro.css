@@ -6,19 +6,19 @@
 
 
  @media screen and (max-width: 1080px) {
-  .intro{
+  .intro {
     margin: 88px 48px 0;
   }
 }
 
  @media screen and (max-width: 768px) {
-  .intro{
+  .intro {
     margin: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .intro{
+  .intro {
     margin: 64px 16px 0;
   }
 }

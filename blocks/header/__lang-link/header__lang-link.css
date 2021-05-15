@@ -7,7 +7,7 @@
   font-weight: normal;
 }
 
-.header__lang-link:active {
+.header__lang-link:first-child {
   text-decoration: underline;
 }
 
