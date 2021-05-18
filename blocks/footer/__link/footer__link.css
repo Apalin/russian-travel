@@ -6,10 +6,30 @@
   line-height: 18px;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
+
+.footer__link > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 712px) {
+  .footer__link{
+    margin-top: 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__link{
     margin-top: 32px;
     font-size: 24px;
     line-height: 24px;
   }
+
+  .footer__link:first-child {
+    margin: 0;
+  }
+
 }

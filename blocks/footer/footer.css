@@ -1,7 +1,7 @@
 .footer {
   color: white;
   max-width: 1184px;
-  margin: auto;
+  margin: 0 auto 24px;
   display: flex;
   justify-content: space-between;
   margin-top: 92px;
@@ -21,6 +21,13 @@
   .footer{
     padding: 0 24px;
     max-width: 768px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .footer{
+    margin-top: 64px;
   }
 }
 
