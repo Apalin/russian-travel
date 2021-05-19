@@ -1,13 +1,30 @@
 .footer__links {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  flex-wrap: wrap;
-  margin: 0;
+  margin-right: 18px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__links:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 712px) {
+  .footer__links {
+    margin-top: 24px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .footer__links{
-    flex-direction: column;
+  .footer__links {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 24px;
   }
+
+  .footer__links:first-child {
+    margin: 0;
+  }
+
 }
